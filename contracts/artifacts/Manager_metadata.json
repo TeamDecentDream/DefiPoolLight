@@ -1,0 +1,313 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "denominator",
+						"type": "uint256"
+					}
+				],
+				"name": "PRBMath_MulDiv_Overflow",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					}
+				],
+				"name": "SlippageCheckFailed",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "poolAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "int24",
+								"name": "lowerTick",
+								"type": "int24"
+							},
+							{
+								"internalType": "int24",
+								"name": "upperTick",
+								"type": "int24"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount0Desired",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount1Desired",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount0Min",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount1Min",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct IManager.MintParams",
+						"name": "params",
+						"type": "tuple"
+					}
+				],
+				"name": "mint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "poolAddress_",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "zeroForOne",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountSpecified",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint160",
+						"name": "sqrtPriceLimitX96",
+						"type": "uint160"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "swap",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amount0",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "amount1",
+						"type": "int256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "swapCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"PRBMath_MulDiv_Overflow(uint256,uint256,uint256)": [
+					{
+						"notice": "Thrown when the resultant value in {mulDiv} overflows uint256."
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Manager.sol": "Manager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Manager.sol": {
+			"keccak256": "0xfa825888f42d45379b781857c6e5fcf08f999d76a809f0ed2cf2ed3104b3aede",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81603c09ef67b8457edf7b9f13fb35b59daf936c09e918a80eb66e128e503499",
+				"dweb:/ipfs/QmSdeaAdbocBYmEDL9eE96Z3NwAv5Z8eMtbCTCUWnTYiiT"
+			]
+		},
+		"https://github.com/GNSPS/solidity-bytes-utils/blob/master/contracts/BytesLib.sol": {
+			"keccak256": "0xa5b10f04797d5a10a9ba07855108b6bd695940e6a3d128927b2f74a0d359868a",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://a38d7680aacbb18dae659876b396b73bcc8f759672213f8a0efc4129e2648535",
+				"dweb:/ipfs/QmfKFnwpTEGAnbRnZxMuv3mRCG9S9WMjFhFL23bftBT2Jq"
+			]
+		},
+		"https://github.com/PaulRBerg/prb-math/blob/main/src/Common.sol": {
+			"keccak256": "0xaa374e2c26cc93e8c22a6953804ee05f811597ef5fa82f76824378b22944778b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://279c732e161d623cf4d8a9519ca4c42c0c2db99842d0eb2a20c10fde3fa722c9",
+				"dweb:/ipfs/QmVViuUXbinQGqtG5M21SgVzKihiCbFUChd4tDhtvwRmxH"
+			]
+		},
+		"interfaces/IERC20.sol": {
+			"keccak256": "0xf7a7b50ddf7b4b4ea7318b12df2d176bb9a6e722f9c705fe518ba19a80d0663d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07abb7dd2e488c7e4e6bb504bb8e3881d4a7b003fcd773fa4aa90a52e4c52696",
+				"dweb:/ipfs/QmT8RGzXfqkK5BtgtqyKmaJfXroYiLLWe3UpD2WK94gHgw"
+			]
+		},
+		"interfaces/IManager.sol": {
+			"keccak256": "0x5f4413001ab3ced137bd574cee6c1504a4f28e0630d3b534b050f5f05d903d8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8139f927e3167566b6a4dd11a8cd9b218ecb7169ec859b0ec120439700c66638",
+				"dweb:/ipfs/QmWV1QF1EUuP32XHAHMpvuaBEc6gNoKNTSxyq9LeycC9iF"
+			]
+		},
+		"interfaces/IPool.sol": {
+			"keccak256": "0x656e336f7bce1877b4ba66792db6809771d41a58a9f7471ae4e61462c97c6be6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bf160c2c1b3571a432211d0c0307181f0525ab75d8b05ff457964bea8d35e7f",
+				"dweb:/ipfs/QmZH1kgYCz3ynSQZkd5PAHqQUcvFZioLHhi5YjYaLPeNwX"
+			]
+		},
+		"libraries/FixedPoint96.sol": {
+			"keccak256": "0x9f249b890f1a47e28cbb02df5967337dd39ac7284e3fcbe53ee91245070eedbc",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://4fdb1f47740430cc2bfa0c8e5a44c239fffea5fb8eaa9fd9ca2ff5c52dd6c769",
+				"dweb:/ipfs/QmTYwvo9aSXQLmaiLBhde312dpahTTAzVRzwJdeFY7nAuF"
+			]
+		},
+		"libraries/LiquidityMath.sol": {
+			"keccak256": "0x1b1641b0128aed5cb56ec2c63ddc78e8c303f90db06b31e3ddd64d8d1e882438",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://0d1b1c7979b1b82247933e6e2b1876cc5b21e1ec7668f0b1366fda8c61608338",
+				"dweb:/ipfs/QmbBTS7fxYiDhp7YFm5FvMKb4dwEbBUsbVz86tqJpQZy2v"
+			]
+		},
+		"libraries/Path.sol": {
+			"keccak256": "0xb25a56a1baffdbda1c8391cc2d6000d8eaaa79f9d3a073acddc33945e1410fcb",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://ce8ef4443182e89dd2d122125b604307841df647ffb496dbc74de81c2d80313f",
+				"dweb:/ipfs/QmWPKbEhFPkFifU9MdMgBbStVNv119SvqgZtPamxGT4Hrh"
+			]
+		},
+		"libraries/TickMath.sol": {
+			"keccak256": "0x2337e864482f0d5542ae067b1c9b80d3ad5331f484b52c67c537fb2ce933a9a7",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://ccca7ccf2f9eef5968302c897bcbffd368014fe46f776de0569e8e77c0cc73f1",
+				"dweb:/ipfs/QmWJ6w7V8e2o8moAcjR2zFr2fsYkDjJvzobTfNr9wubdSG"
+			]
+		}
+	},
+	"version": 1
+}

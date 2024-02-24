@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV3MintCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IMintCallback.sol": "MintCallback"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IMintCallback.sol": {
+			"keccak256": "0x47b9fbce95b0b1bfba8f419847464e96fe1c3ebd1a78a40dea8c5c119dcb8ecd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8ec93d9ff3a9d30da9f76fb79ee1ca9b2ca1aada48c24f3c7968e0b397eb283",
+				"dweb:/ipfs/QmWKyjgLpYuoiEaa948mNEm29FVn2ZsTuoUKMgYiY3CR7u"
+			]
+		}
+	},
+	"version": 1
+}

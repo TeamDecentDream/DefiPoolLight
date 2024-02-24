@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amount0",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "amount1",
+						"type": "int256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "swapCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/ISwapCallback.sol": "ISwapCallback"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/ISwapCallback.sol": {
+			"keccak256": "0x4142992097399e8d5db34a86d08a02ec93ae52acb816c483fcf0eede9e9363e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6024b1e0a4b02dab518358929a0c6f7c455a7354063be87ede60d5989916ea2",
+				"dweb:/ipfs/QmYXSCSURYZA4TNDcS262ovraz2PiVKx63XUBTb8nYRnXc"
+			]
+		}
+	},
+	"version": 1
+}

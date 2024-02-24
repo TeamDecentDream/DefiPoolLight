@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": "test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+			"keccak256": "0x5989677a8ebb4f4a5b2697bac5e35b9c49c7d10b30c4817f04c4ec5215b8664d",
+			"urls": [
+				"bzz-raw://77f31eeb66b1afd5ccc14b202094b5f7739c47fe3d6a72abbbc0571ca2ef9a77",
+				"dweb:/ipfs/QmUTKCKpV4nLSg7RYFXZ7PPVwfmqJe4qTUjAzQHwPdJj47"
+			]
+		}
+	},
+	"version": 1
+}

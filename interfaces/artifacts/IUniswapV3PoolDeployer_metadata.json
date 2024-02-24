@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "parameters",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "factory",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint24",
+						"name": "tickSpacing",
+						"type": "uint24"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IDeployer.sol": "IUniswapV3PoolDeployer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IDeployer.sol": {
+			"keccak256": "0xf81dbc54ec20b656742f0579b89493b1857ec637f4a5c2cd1dbc7fcf8c4213dd",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://9f7d748aa9b9970fb5cc694c821d12b61be081aa24884d0e47af0c928314736a",
+				"dweb:/ipfs/QmXrGp53HJY8aSfmJ1BckPQUdgiL5hC6gpJ75Jz3oXqMNi"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "pool",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amountIn",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint160",
+								"name": "sqrtPriceLimitX96",
+								"type": "uint160"
+							},
+							{
+								"internalType": "bool",
+								"name": "zeroForOne",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Quoter.QuoteParams",
+						"name": "params",
+						"type": "tuple"
+					}
+				],
+				"name": "quote",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountOut",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint160",
+						"name": "sqrtPriceX96After",
+						"type": "uint160"
+					},
+					{
+						"internalType": "int24",
+						"name": "tickAfter",
+						"type": "int24"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "amount0Delta",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "amount1Delta",
+						"type": "int256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "swapCallback",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Quoter.sol": "Quoter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Quoter.sol": {
+			"keccak256": "0x0a31f1e33763b07153413460ccd977d44074bdcd990078e1155345c10425a004",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a268a20e98aea45183a25ae9d7f18aec10b1119c9b382409d0d18df13220c42b",
+				"dweb:/ipfs/QmZByzV5yvqeKBfyaoxZeB2mVzruth37dvCoLhFZBZBzD3"
+			]
+		},
+		"https://github.com/GNSPS/solidity-bytes-utils/blob/master/contracts/BytesLib.sol": {
+			"keccak256": "0xa5b10f04797d5a10a9ba07855108b6bd695940e6a3d128927b2f74a0d359868a",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://a38d7680aacbb18dae659876b396b73bcc8f759672213f8a0efc4129e2648535",
+				"dweb:/ipfs/QmfKFnwpTEGAnbRnZxMuv3mRCG9S9WMjFhFL23bftBT2Jq"
+			]
+		},
+		"interfaces/IPool.sol": {
+			"keccak256": "0x656e336f7bce1877b4ba66792db6809771d41a58a9f7471ae4e61462c97c6be6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bf160c2c1b3571a432211d0c0307181f0525ab75d8b05ff457964bea8d35e7f",
+				"dweb:/ipfs/QmZH1kgYCz3ynSQZkd5PAHqQUcvFZioLHhi5YjYaLPeNwX"
+			]
+		},
+		"libraries/Path.sol": {
+			"keccak256": "0xb25a56a1baffdbda1c8391cc2d6000d8eaaa79f9d3a073acddc33945e1410fcb",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://ce8ef4443182e89dd2d122125b604307841df647ffb496dbc74de81c2d80313f",
+				"dweb:/ipfs/QmWPKbEhFPkFifU9MdMgBbStVNv119SvqgZtPamxGT4Hrh"
+			]
+		},
+		"libraries/TickMath.sol": {
+			"keccak256": "0x2337e864482f0d5542ae067b1c9b80d3ad5331f484b52c67c537fb2ce933a9a7",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://ccca7ccf2f9eef5968302c897bcbffd368014fe46f776de0569e8e77c0cc73f1",
+				"dweb:/ipfs/QmWJ6w7V8e2o8moAcjR2zFr2fsYkDjJvzobTfNr9wubdSG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IMintCallback.sol": "IMintCallback"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IMintCallback.sol": {
+			"keccak256": "0xc9f66bd5638e1ffc045259e3723c75eb984d83a4ed4df8ca04d07cf650e8bff8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f54510c394f163aa3f1894b8ff702a9d3cde44cd3c0c33738e40a6d20140d60c",
+				"dweb:/ipfs/QmbwX3VGS7hCiAEPXDE3rg6ZMk3ViBSKyrSZ9nDYqi3sd4"
+			]
+		}
+	},
+	"version": 1
+}

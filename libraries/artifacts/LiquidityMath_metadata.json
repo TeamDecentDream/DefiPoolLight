@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries/LiquidityMath.sol": "LiquidityMath"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"https://github.com/PaulRBerg/prb-math/blob/main/src/Common.sol": {
+			"keccak256": "0xaa374e2c26cc93e8c22a6953804ee05f811597ef5fa82f76824378b22944778b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://279c732e161d623cf4d8a9519ca4c42c0c2db99842d0eb2a20c10fde3fa722c9",
+				"dweb:/ipfs/QmVViuUXbinQGqtG5M21SgVzKihiCbFUChd4tDhtvwRmxH"
+			]
+		},
+		"libraries/FixedPoint96.sol": {
+			"keccak256": "0x9f249b890f1a47e28cbb02df5967337dd39ac7284e3fcbe53ee91245070eedbc",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://4fdb1f47740430cc2bfa0c8e5a44c239fffea5fb8eaa9fd9ca2ff5c52dd6c769",
+				"dweb:/ipfs/QmTYwvo9aSXQLmaiLBhde312dpahTTAzVRzwJdeFY7nAuF"
+			]
+		},
+		"libraries/LiquidityMath.sol": {
+			"keccak256": "0x1b1641b0128aed5cb56ec2c63ddc78e8c303f90db06b31e3ddd64d8d1e882438",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://0d1b1c7979b1b82247933e6e2b1876cc5b21e1ec7668f0b1366fda8c61608338",
+				"dweb:/ipfs/QmbBTS7fxYiDhp7YFm5FvMKb4dwEbBUsbVz86tqJpQZy2v"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,122 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": "<address>"
+				}
+			},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": [
+						{
+							"length": 20,
+							"start": 109
+						}
+					]
+				}
+			},
+			"object": "608060405234801561001057600080fd5b50610101806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b600073__$92aac7838e725b40110c6b044a45d03b9f$__6387cc10e16040518163ffffffff1660e01b815260040160206040518083038186803b158015608e57600080fd5b505af415801560a1573d6000803e3d6000fd5b505050506040513d602081101560b657600080fd5b810190808051906020019092919050505090509056fea265627a7a72315820f563f1153f7ffba8c974c98c104422cb4e879b564fc216b5d639a619fa4ffb0d64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x101 DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x49 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH20 0x0 PUSH4 0x87CC10E1 PUSH1 0x40 MLOAD DUP2 PUSH4 0xFFFFFFFF AND PUSH1 0xE0 SHL DUP2 MSTORE PUSH1 0x4 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 DUP7 DUP1 EXTCODESIZE ISZERO DUP1 ISZERO PUSH1 0x8E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP GAS DELEGATECALL ISZERO DUP1 ISZERO PUSH1 0xA1 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x20 DUP2 LT ISZERO PUSH1 0xB6 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP SWAP1 POP SWAP1 JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 CREATE2 PUSH4 0xF1153F7F 0xFB 0xA8 0xC9 PUSH21 0xC98C104422CB4E879B564FC216B5D639A619FA4FFB 0xD PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "34:172:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:172:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {
+				".learneth/Deploy with Libraries/1_Writing_a_Library/1_contractSimpleLibrary_answer.sol": {
+					"LibraryForTest": [
+						{
+							"length": 20,
+							"start": 77
+						}
+					]
+				}
+			},
+			"object": "6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b600073__$92aac7838e725b40110c6b044a45d03b9f$__6387cc10e16040518163ffffffff1660e01b815260040160206040518083038186803b158015608e57600080fd5b505af415801560a1573d6000803e3d6000fd5b505050506040513d602081101560b657600080fd5b810190808051906020019092919050505090509056fea265627a7a72315820f563f1153f7ffba8c974c98c104422cb4e879b564fc216b5d639a619fa4ffb0d64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x49 JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH20 0x0 PUSH4 0x87CC10E1 PUSH1 0x40 MLOAD DUP2 PUSH4 0xFFFFFFFF AND PUSH1 0xE0 SHL DUP2 MSTORE PUSH1 0x4 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 DUP7 DUP1 EXTCODESIZE ISZERO DUP1 ISZERO PUSH1 0x8E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP GAS DELEGATECALL ISZERO DUP1 ISZERO PUSH1 0xA1 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x20 DUP2 LT ISZERO PUSH1 0xB6 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP SWAP1 POP SWAP1 JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 CREATE2 PUSH4 0xF1153F7F 0xFB 0xA8 0xC9 PUSH21 0xC98C104422CB4E879B564FC216B5D639A619FA4FFB 0xD PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "34:172:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:172:0;;;;;;;;;;;;;;;;;;;54:150;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;85:4;166:14;:25;:27;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;166:27:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;166:27:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;166:27:0;;;;;;;;;;;;;;;;159:34;;54:150;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "51400",
+				"executionCost": "105",
+				"totalCost": "51505"
+			},
+			"external": {
+				"get()": "infinite"
+			}
+		},
+		"methodIdentifiers": {
+			"get()": "6d4ce63c"
+		}
+	},
+	"abi": [
+		{
+			"constant": false,
+			"inputs": [],
+			"name": "get",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

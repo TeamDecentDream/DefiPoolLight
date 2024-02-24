@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IManager.sol": "IUniswapV3Manager"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IManager.sol": {
+			"keccak256": "0xc92273eb91e33f5b641d445f38fcff401b59220a346df7530d61f09b23f0104d",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://d1dd253d656282e7f328b4ef84f67cdf491e0495348967435ce3b4cd5602d08a",
+				"dweb:/ipfs/QmbDkXhSiYUaxRr1yTeSrLtaotHUpyud8Cm988P657zLWk"
+			]
+		}
+	},
+	"version": 1
+}

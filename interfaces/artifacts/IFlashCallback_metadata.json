@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "flashCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IFlashCallback.sol": "IFlashCallback"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IFlashCallback.sol": {
+			"keccak256": "0x85d93b05d4d5d562fd147a6f5ccb29225e417569d114df4ef9302044ddb25334",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://f61e8f4674f65766342e391c7321197fa33ecd820aa6ea061714a765bf2e71a5",
+				"dweb:/ipfs/QmTnXaKPTtXWEoeCqV9XfKk3RyGsfPW51vUEVSC95YVyoV"
+			]
+		}
+	},
+	"version": 1
+}

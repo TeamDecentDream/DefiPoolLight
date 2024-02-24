@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Pool.sol": "SwapPool"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Pool.sol": {
+			"keccak256": "0x494f2b779f8316b9c4649b73156b80364e7b1d918ead71eaea19079c41557601",
+			"urls": [
+				"bzz-raw://d8a5d93fc7d7ef65f4b070733aba68e945ba26bd7ef1076ff82a8cc607e66103",
+				"dweb:/ipfs/QmVFSVxMjiAumHeRmPZGk6XdnYXWNPKaMVz91aq7PcLf24"
+			]
+		}
+	},
+	"version": 1
+}

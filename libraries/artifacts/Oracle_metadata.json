@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries/Oracle.sol": "Oracle"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"libraries/Oracle.sol": {
+			"keccak256": "0x0b0d13dd5b2d24c0af02ab429d955dfe8edebe1fb32913a44d5157bd71aef361",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://46771edd749a35f9a9b51bd67445aa68cf7ed98ccec608fddad7c4eaad26a27a",
+				"dweb:/ipfs/QmYtTcGs19ZW8UqVoQVR1UUitnxh9WATTPqo4o1PCeA568"
+			]
+		}
+	},
+	"version": 1
+}

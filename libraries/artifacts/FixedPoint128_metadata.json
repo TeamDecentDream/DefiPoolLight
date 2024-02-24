@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries/FixedPoint128.sol": "FixedPoint128"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"libraries/FixedPoint128.sol": {
+			"keccak256": "0xa5410b9f302b8f8da371909aae82accf73d0a31cac9ea32e0d49fc91f8cd8b3a",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://71eb3d79576f3e9bd93d8acb6c239a0a59b9c4d2203061db20de908fa8c1b604",
+				"dweb:/ipfs/Qma2BHTgALXCh1A5mDfhtYE4tmRxGETggMPquzWnvHwS9U"
+			]
+		}
+	},
+	"version": 1
+}

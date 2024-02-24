@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "parameters",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "factory",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint24",
+						"name": "tickSpacing",
+						"type": "uint24"
+					},
+					{
+						"internalType": "uint24",
+						"name": "fee",
+						"type": "uint24"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaces/IDeployer.sol": "IDeployer"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaces/IDeployer.sol": {
+			"keccak256": "0xf2ad5033c1fcd546d9454f4f166113153a6691f0bfa2a65c8e1a140fb48db0fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9437fdfd286b72692046e2d0695fa11b8a3f2ad5b91396727e07c58d4dddf2d",
+				"dweb:/ipfs/QmWrAhsHyB8xnj2XjuLQ7xAtARb6kwJrrENRVMbs2j8km2"
+			]
+		}
+	},
+	"version": 1
+}

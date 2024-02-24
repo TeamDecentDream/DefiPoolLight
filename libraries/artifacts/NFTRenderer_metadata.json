@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"libraries/NFTRenderer.sol": "NFTRenderer"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Base64.sol": {
+			"keccak256": "0x9b446f78be696b6713d93edd07c3bfcc6b0aa132e8f8509f370300b257f41f96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f50d37d636118cb599b719604198ecd0feec67c8ca4addf19cf27a937e1e5517",
+				"dweb:/ipfs/QmXiVg58qYhvAGKPWEmoibi8pfDfaGVupjYQNSFKirX5Am"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Panic.sol": {
+			"keccak256": "0x29074fe5a74bb024c57b3570abf6c74d8bceed3438694d470fd0166a3ecd196a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f4f8435ccbc56e384f4cc9ac9ff491cf30a82f2beac00e33ccc2cf8af3f77cc3",
+				"dweb:/ipfs/QmUKJXxTe6nn1qfgnX8xbnboNNAPUuEmJyGqMZCKNiFBgn"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol": {
+			"keccak256": "0x55f102ea785d8399c0e58d1108e2d289506dde18abc6db1b7f68c1f9f9bc5792",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e52e0a7765c943ef14e5bcf11e46e6139fa044be564881378349236bf2e3453",
+				"dweb:/ipfs/QmZEeeXoFPW47amyP35gfzomF9DixqqTEPwzBakv6cZw6i"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol": {
+			"keccak256": "0xc3a38f6236b9f11703164f1c52a5d423f02f01ee689d58d5a35d1a48ad5b9d88",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ee652cbb0266d2336107760205ea72fecf6f8127e32361d1a209016e0f8271d",
+				"dweb:/ipfs/QmefTVVswMMF6r372icwDF6DqNfzkEX5mzgSpbxdpgaUKj"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeCast.sol": {
+			"keccak256": "0x8cd59334ed58b8884cd1f775afc9400db702e674e5d6a7a438c655b9de788d7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99e62c7de7318f413b6352e3f2704ca23e7725ff144e43c8bd574d12dbf29047",
+				"dweb:/ipfs/QmSEXG2rBx1VxU2uFTWdiChjDvA4osEY2mesjmoVeVhHko"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x519e2c9d9c4dfd63311fb98663e55ba465772897cd4a98e3a5406a1f5959811f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4718d121f448f8fce3b28a276fd194014597319a4133696793893ae13c6e512",
+				"dweb:/ipfs/QmaQyHiKokgyWq9nREub6xGUAEYiGTiv4caigjGCiWZTjZ"
+			]
+		},
+		"interfaces/IERC20.sol": {
+			"keccak256": "0xf7a7b50ddf7b4b4ea7318b12df2d176bb9a6e722f9c705fe518ba19a80d0663d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07abb7dd2e488c7e4e6bb504bb8e3881d4a7b003fcd773fa4aa90a52e4c52696",
+				"dweb:/ipfs/QmT8RGzXfqkK5BtgtqyKmaJfXroYiLLWe3UpD2WK94gHgw"
+			]
+		},
+		"interfaces/IPool.sol": {
+			"keccak256": "0xf4e0783d7eb6fc888cc8525530cddf48eb3bc542113d3e2ca5f7ce052958005e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb617e232214cc261c25fa0fe29efb81bcca8e296c1c1d5376afb32b4cd8a705",
+				"dweb:/ipfs/QmXgaPdofoiBhD2SFkz2ALWSh82eohPqtfKRtQpmDZCB24"
+			]
+		},
+		"libraries/NFTRenderer.sol": {
+			"keccak256": "0x451e302a42fb42d3bb61fcdbc305c86cec18b8870083cf9b1dde6c3a4e95b13d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c6a7859243294bbbd97ac2af912b63103a55c950d49735a2932fd28062ed1cf1",
+				"dweb:/ipfs/QmVj9YUyunRXFQCHNkYoVVE3RUBvsrfFr3RByJuymGADr1"
+			]
+		}
+	},
+	"version": 1
+}
